@@ -1,0 +1,19 @@
+# GitHub CLI Configuration
+version: 1
+git_protocol: https
+editor:
+prompt: enabled
+prefer_editor_prompt: disabled
+pager:
+# Useful aliases
+aliases:
+    co: pr checkout
+    pv: pr view
+    pc: pr create
+    rv: repo view
+http_unix_socket:
+browser:
+color_labels: disabled
+accessible_colors: disabled
+accessible_prompter: disabled
+spinner: enabled

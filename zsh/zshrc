@@ -1,0 +1,17 @@
+# Monaco ZSH Configuration
+# Main configuration file for ZSH
+
+# Source modular configs
+MONACO_DIR="$HOME/Monaco"
+
+# Load exports first
+source "$MONACO_DIR/zsh/exports.zsh"
+
+# Load aliases
+source "$MONACO_DIR/zsh/aliases.zsh"
+
+# Load functions
+source "$MONACO_DIR/zsh/functions.zsh"
+
+# Starship prompt (load last)
+eval "$(starship init zsh)"
