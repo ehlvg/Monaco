@@ -7,6 +7,10 @@ alias monaco='cd ~/Monaco'
 # Claude
 alias ah='claude -p'
 
+# OpenCode
+alias oc='opencode'
+alias ocr='opencode run'
+
 # Modern replacements
 alias ls='eza --icons'
 alias la='eza --icons -a'

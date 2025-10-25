@@ -1,19 +1,25 @@
-# CLI Tools
-brew "bat"              # Cat with syntax highlighting
-brew "eza"              # Modern ls replacement
-brew "fastfetch"        # System info
-brew "fzf"              # Fuzzy finder
-brew "gh"               # GitHub CLI
-brew "mlx"              # Apple MLX framework
-brew "node"             # Node.js
-brew "pipx"             # Python package installer
-brew "python@3.12"      # Python
-brew "starship"         # Shell prompt
-
-# Applications
-cask "visual-studio-code"
-
-# VSCode Extensions
-vscode "github.copilot"
-vscode "github.copilot-chat"
-vscode "teabyii.ayu"
+tap "d99kris/nchat"
+tap "nikitabobko/tap"
+tap "scouzi1966/afm"
+brew "aichat"
+brew "bat"
+brew "btop"
+brew "ddgr"
+brew "eza"
+brew "fastfetch"
+brew "fd"
+brew "fzf"
+brew "gh"
+brew "mlx"
+brew "node"
+brew "opencode"
+brew "pipx"
+brew "python@3.12"
+brew "starship"
+brew "scouzi1966/afm/afm"
+cask "cursor"
+vscode "anthropic.claude-code"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode.live-server"
+vscode "mvllow.rose-pine"

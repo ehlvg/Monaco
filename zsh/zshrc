@@ -15,3 +15,6 @@ source "$MONACO_DIR/zsh/functions.zsh"
 
 # Starship prompt (load last)
 eval "$(starship init zsh)"
+export PATH="$HOME/.local/bin:$PATH"
+
+export EDITOR="cursor"
